@@ -1,0 +1,94 @@
+
+.edit-member-form {
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header section */
+  .edit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #3a3f51;
+  }
+  
+  /* Back button in the header */
+  .back-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Form container layout */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #3a3f51; 
+  }
+  
+  /* Input field styles */
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="file"],
+  .form-group input[type="date"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #3a3f51; 
+  }
+  
+  .form-group input::placeholder {
+    color: #b0b0b0; 
+  }
+  
+  /* Gender selection layout */
+  .form-group div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #3a3f51;
+  }
+  
+  /* Save button styling */
+  .save-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3a3f51; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #2d3243; 
+  }
+  

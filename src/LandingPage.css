@@ -1,0 +1,317 @@
+/* General Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 3px solid #3f3d56;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Section */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Navigation Links */
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+
+.nav-link.cta {
+  background-color: #ffea00;
+  color: #000;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-link.cta:hover {
+  background-color: #ffd700;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ECECEC;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .header nav a {
+    margin: 0 1rem;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .header nav a.cta {
+    padding: 0.5rem 1rem;
+    background: #FFD700;
+    border-radius: 20px;
+  }
+  
+  .header nav a:hover {
+    color: #FFD700;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #4A4A8A, #303060);
+    color: #fff;
+    text-align: center;
+    padding: 5rem 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-button {
+    padding: 0.75rem 2rem;
+    background: #FFD700;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 2rem;
+    background: #FFFFFF;
+    text-align: center;
+  }
+  
+  .about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 2rem;
+    background: #ECECEC;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .services .service-item {
+    width: 150px;
+    transition: transform 0.3s ease;
+    
+  }
+  
+  .services img {
+    width: 80px;
+    margin-bottom: 1rem;
+   
+  }
+  .services img:hover{
+    transition: transform 0.3s ease;
+  }
+  
+  /* Membership Section */
+  .membership {
+    padding: 2rem;
+    background: #FFFFFF;
+    text-align: center;
+  }
+  
+  .membership .plan {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .membership .plan:hover {
+    background: #FFD700;
+    color: #FFF;
+  }
+  
+  /* Visit Gym Section */
+  .visit-gym {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    background: #ECECEC;
+    gap: 2rem;
+  }
+  
+  .visit-gym .map iframe {
+    border: 3px solid #333;
+    border-radius: 10px;
+  }
+  
+  .visit-gym .contact-info {
+    text-align: left;
+  }
+  
+  .visit-gym .socials img {
+    width: 30px;
+    margin-right: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .visit-gym .socials img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Admin Login Section */
+  .admin-login {
+    background: #333;
+    color: #FFF;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .admin-login form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #4A4A4A;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .admin-login label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .admin-login input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+  }
+  
+  .admin-login .forgot-password {
+    display: block;
+    margin-bottom: 1rem;
+    color: #FFD700;
+  }
+  
+  .admin-login button {
+    padding: 0.75rem 1.5rem;
+    background: #FFD700;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #ECECEC;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .footer .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer a {
+    font-size: 0.875rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #FFD700;
+  }
+  
+  .footer p {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
